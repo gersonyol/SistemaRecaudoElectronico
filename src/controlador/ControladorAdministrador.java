@@ -16,6 +16,8 @@ import modelo.UsuarioDAO;
 import modelo.UsuarioVO;
 import vista.FrmAdministrador;
 
+//Comentario de prueba -- Profe
+
 /**
  *
  * @author Chezter
