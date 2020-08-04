@@ -20,3 +20,4 @@ public interface UsuarioConsultasDAO {
     public ArrayList<UsuarioVO> consultarEmpleadoPass(UsuarioVO gvo);
     public ArrayList<UsuarioVO> consultarTipoEstado(UsuarioVO gvo);
 }
+ 

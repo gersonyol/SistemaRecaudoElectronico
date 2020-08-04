@@ -23,8 +23,8 @@ public class UsuarioDAO implements UsuarioConsultasDAO {
             c.consultaMultiple("INSERT INTO tbl_empleado (nombre_empleado, "
                     + "apellido_empleado, edad_empleado, user_empleado, "
                     + "password_empleado, id_tipo_empleado, id_estado) VALUES ( '"+g.getNombre_empleado()
-                    +" ',' "+g.getApellido_empleado()+" ', "+g.getEdad_empleado()
-                    +" ,' "+g.getUser_empleado()+" ',' "+g.getPassword_empleado()
+                    +"', '"+g.getApellido_empleado()+"', "+g.getEdad_empleado()
+                    +" ,'"+g.getUser_empleado()+"','"+g.getPassword_empleado()
                     +" ', "+g.getId_tipo_empleado()+" , "+g.getId_estado()+" ); "  );
                               
         } catch (Exception e) {

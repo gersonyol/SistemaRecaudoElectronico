@@ -89,13 +89,13 @@ public class ControladorAdministrador implements ActionListener, WindowListener,
         int seleccion;
         seleccion = fa.tblAdministrador.getSelectedRow();
         gvo.setId_empleado((int)fa.tblAdministrador.getValueAt(seleccion, 0));
-        fa.txtNombreUsuario.setText(String.valueOf(fa.tblAdministrador.getValueAt(seleccion, 1) ));
-        fa.txtApellidoUsuario.setText(String.valueOf(fa.tblAdministrador.getValueAt(seleccion, 2) ));
-        fa.txtEdadUsuario.setText(String.valueOf(fa.tblAdministrador.getValueAt(seleccion, 3) ));
+        fa.txtNombreUsuario.setText(String.valueOf(fa.tblAdministrador.getValueAt(seleccion, 1)));
+        fa.txtApellidoUsuario.setText(String.valueOf(fa.tblAdministrador.getValueAt(seleccion, 2)));
+        fa.txtEdadUsuario.setText(String.valueOf(fa.tblAdministrador.getValueAt(seleccion, 3)));
         fa.txtUser.setText(String.valueOf(fa.tblAdministrador.getValueAt(seleccion, 4)));
         fa.txtPassword.setText(String.valueOf(fa.tblAdministrador.getValueAt(seleccion, 5)));
-        fa.cmbTipoUsuario.setSelectedIndex((int)fa.tblAdministrador.getValueAt(seleccion, 6) );
-        fa.cmbEstadoUsuario.setSelectedIndex((int)fa.tblAdministrador.getValueAt(seleccion, 7) );
+        fa.cmbTipoUsuario.setSelectedIndex((int)fa.tblAdministrador.getValueAt(seleccion, 6));
+        fa.cmbEstadoUsuario.setSelectedIndex((int)fa.tblAdministrador.getValueAt(seleccion, 7));
     }
  
  private void modificarDatos(){

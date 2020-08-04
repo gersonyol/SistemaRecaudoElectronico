@@ -148,3 +148,4 @@ DROP TABLE tbl_detalle_recarga;
 
 
 
+tbl_usuario
